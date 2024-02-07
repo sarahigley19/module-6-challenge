@@ -43,7 +43,8 @@ label h2 {
 }
 
 .column-1 {
-	padding: 20px;
+	padding: 40px;
+
 }
 
 .column-2 {
@@ -106,13 +107,14 @@ input {
 	color: white;
 	border-radius: 5px;
 	font-size: 15px;
-	padding-left: 50px;
-	padding-right: 50px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border: none;
-	margin-left: 20px;
-	margin-right: 150px;
 	text-align: center;
 	cursor: pointer;
+	margin-right:84px;
+}
+
+#searchedCitiesList ul {
+	position: fixed;
 }
