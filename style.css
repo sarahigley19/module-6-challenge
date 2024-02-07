@@ -14,10 +14,6 @@ h1 {
 	font-weight: bolder;
 }
 
-h2 {
-	text-align: left;
-	font-weight: bolder;
-}
 
 h5 {
 	font-weight: bolder;
@@ -31,7 +27,6 @@ p {
 
 label h2 {
 	text-align: left;
-	font-weight: 600;
 }
 
 .weatherData {
@@ -44,7 +39,6 @@ label h2 {
 
 .column-1 {
 	padding: 40px;
-
 }
 
 .column-2 {
