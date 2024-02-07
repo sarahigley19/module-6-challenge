@@ -1,11 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css" />
+	<title>Weather Dahsboard</title>
 </head>
+
 <body>
-	
+	<h1>Weather Dashboard</h1>
+	<div class="weatherData">
+		<div class="section-1">
+			<div class="column-1">
+				<label for="cityInput">
+					<h2>Search for City:</h2>
+				</label>
+				<input type="text" id="cityInput" placeholder="E.g., New York">
+				<button id="getWeatherButton"><en>SEARCH</en></button>
+			</div>
+			<ul id="searchedCitiesList"></ul>
+		</div>
+		<div class="section-2">
+			<div class="column-2">
+				<div id="weatherData"></div>
+			</div>
+			<div class="column-3">
+				<div id="forecastData" class="container">
+					<div class="row">
+						<div class="col"></div>
+						<div class="col"></div>
+						<div class="col"></div>
+						<div class="col"></div>
+						<div class="col"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
 </body>
+
 </html>
