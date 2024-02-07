@@ -100,19 +100,14 @@ input {
 	width: 70%;
 }
 
-#forecastData ul {
-	display: flex;
-	flex-direction: row;
-	text-align: center;
-}
-
 #searchedCitiesList li {
 	margin-top: 20px;
 	background-color: #1a67a2;
 	color: white;
 	border-radius: 5px;
 	font-size: 15px;
-	padding-left: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border: none;
